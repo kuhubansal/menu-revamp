@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+backend/node_modules/
+backend/dist/
+backend/*.log
+*.sqlite
+*.db
+.vscode/
+.DS_Store
