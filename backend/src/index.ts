@@ -1,37 +1,40 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express, { Request, Response, NextFunction } from "express";
 import cookieParser from "cookie-parser";
-import path from "path";
-import db from "./db/sqlite"; 
-
-
+import {checkDBHealth,initDB, runQuery} from './db/postgres';
+import menuRoutes from './routes/menuRoutes';
+import healthRoutes from "./routes/healthRoutes";
+import requestLogger from "./middlewares/requestLogger";
+import { errorHandler } from "./middlewares/errorHandler";
+import logger from "./utils/logger";
+import authRoutes from "./routes/authRouter";
+import { setupSwagger } from "./config/swagger";
+  
 const app = express();
+export default app;
 const PORT = process.env.PORT || 3000;
-
 app.use(express.json());
+app.use(requestLogger);
 app.use(cookieParser());
 
-// Simple request logger
-app.use((req: Request, _res: Response, next: NextFunction) => {
-  console.log(`${new Date().toISOString()} - ${req.method} ${req.originalUrl}`);
+initDB();
+setupSwagger(app);
+
+//Logger middleware 
+app.use((req: Request, res: Response, next: NextFunction) => {
+  logger.info(`${req.method} ${req.originalUrl}`);
   next();
 });
 
-// Health route
-app.get("/api/health", (_req: Request, res: Response) => {
-  res.json({ status: "ok", time: new Date().toISOString() });
-});
+app.use("/api/auth", authRoutes);
+app.use("/api/menus", menuRoutes);
+app.use("/api/health", healthRoutes);
 
-// Placeholder menu route (we'll implement real routes later)
-app.get("/api/menus", (_req: Request, res: Response) => {
-  res.json({ menus: [], message: "Menu routes will be implemented" });
-});
-
-// Basic error handler
-app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-  console.error("Unhandled error:", err);
-  res.status(500).json({ error: "Internal Server Error" });
-});
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
 });
+
+

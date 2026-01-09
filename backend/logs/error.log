@@ -1,0 +1,18 @@
+[2025-11-26 22:17:41] ERROR:Error building menu tree: Cannot read properties of undefined (reading 'push')
+[2025-11-26 22:30:22] ERROR:Error building menu tree: flatMenus.forEach is not a function
+[2025-11-28 17:56:35] ERROR:Expected double-quoted property name in JSON at position 32
+[2025-11-30 22:29:17] ERROR:Expected ',' or '}' after property value in JSON at position 30
+[2025-11-30 23:25:14] ERROR:error is not defined
+[2025-11-30 23:25:32] ERROR:error is not defined
+[2025-11-30 23:25:43] ERROR:error is not defined
+[2025-11-30 23:25:58] ERROR:error is not defined
+[2025-11-30 23:25:58] ERROR:error is not defined
+[2025-11-30 23:25:59] ERROR:error is not defined
+[2025-11-30 23:26:00] ERROR:error is not defined
+[2026-01-07 10:52:20] ERROR:unsupported charset "UTF-8"
+[2026-01-08 08:18:00] ERROR:unsupported charset "UTF-8"
+[2026-01-08 10:00:10] ERROR:message updating menu:
+[2026-01-08 10:26:30] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:21:31] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:28:03] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:43:17] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')

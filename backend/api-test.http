@@ -1,0 +1,51 @@
+### Test DB connection
+GET http://localhost:3000/test-db
+
+### Login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password"
+}
+
+### Search 
+GET http://localhost:3000/api/menus/search?q=EQUITIES
+Cookie: authToken=valid-user-token
+
+### Get Paginated menus 
+GET http://localhost:3000/api/menus?page=4&limit=8
+Cookie: authToken=valid-user-token
+
+### Health Check
+GET http://localhost:3000/api/dbHealth
+
+### Get all menus
+GET http://localhost:3000/api/menus
+
+### Get tree
+GET http://localhost:3000/api/menus/tree
+
+### Create a new menu
+POST http://localhost:3000/api/menus
+Content-Type: application/json
+
+{
+  "menuid": 10,
+  "menuname": "123",
+  "menucode": "BL_MN_MTN",
+  "parentmenuid": 7
+}
+
+### Update menu
+PATCH  http://localhost:3000/api/menus/10
+Content-Type: application/json
+
+{
+  "menucode": "BL_MN_MTN",
+  "menuname" : "Menu Maintenance"
+}
+
+### Delete menu
+DELETE http://localhost:3000/api/menus/1

@@ -1,0 +1,442 @@
+[2025-11-26 19:35:13] INFO:GET /test-db
+[2025-11-26 19:35:21] INFO:GET /api/menus
+[2025-11-26 19:35:23] INFO:GET /api/menus
+[2025-11-26 19:35:33] INFO:GET /api/menus/tree
+[2025-11-26 19:35:33] INFO:Menu tree fetched successfully
+[2025-11-26 19:35:46] INFO:GET /api/menus
+[2025-11-26 19:41:45] INFO:DELETE /api/menus/1
+[2025-11-26 19:42:16] INFO:GET /api/menus
+[2025-11-26 19:42:45] INFO:DELETE /api/menus/1
+[2025-11-26 19:42:54] INFO:GET /api/menus
+[2025-11-26 19:44:22] INFO:DELETE /api/menus/1
+[2025-11-26 19:44:33] INFO:GET /api/menus
+[2025-11-26 19:45:36] INFO:DELETE /api/menus
+[2025-11-26 19:45:43] INFO:DELETE /api/menus/2
+[2025-11-26 19:45:50] INFO:GET /api/menus
+[2025-11-26 19:46:50] INFO:POST /api/menus
+[2025-11-26 19:48:06] INFO:DELETE /api/menus/3
+[2025-11-26 19:50:35] INFO:POST /api/menus
+[2025-11-26 19:51:04] INFO:DELETE /api/menus/3
+[2025-11-26 20:20:21] INFO:POST /api/menus
+[2025-11-26 20:21:29] INFO:POST /api/menus
+[2025-11-26 20:22:42] INFO:POST /api/menus
+[2025-11-26 20:23:47] INFO:POST /api/menus
+[2025-11-26 20:24:40] INFO:POST /api/menus
+[2025-11-26 20:25:12] INFO:POST /api/menus
+[2025-11-26 20:27:36] INFO:POST /api/menus
+[2025-11-26 20:29:39] INFO:POST /api/menus
+[2025-11-26 20:31:15] INFO:POST /api/menus
+[2025-11-26 20:32:55] INFO:POST /api/menus
+[2025-11-26 20:38:27] INFO:POST /api/menus
+[2025-11-26 20:44:24] INFO:POST /api/menus
+[2025-11-26 20:45:22] INFO:POST /api/menus
+[2025-11-26 20:47:25] INFO:POST /api/menus
+[2025-11-26 20:51:16] INFO:GET /api/menus
+[2025-11-26 20:52:06] INFO:GET /api/menus
+[2025-11-26 20:52:22] INFO:GET /api/menus
+[2025-11-26 20:52:42] INFO:GET /api/menus
+[2025-11-26 20:53:49] INFO:GET /api/menus
+[2025-11-26 20:54:27] INFO:GET /api/menus/tree
+[2025-11-26 20:54:29] INFO:Menu tree fetched successfully
+[2025-11-26 20:54:58] INFO:GET /api/menus
+[2025-11-26 21:05:37] INFO:GET /api/menus/tree
+[2025-11-26 21:05:40] INFO:Menu tree fetched successfully
+[2025-11-26 21:07:06] INFO:GET /api/menus/tree
+[2025-11-26 21:07:08] INFO:Menu tree fetched successfully
+[2025-11-26 21:10:49] INFO:GET /api/menus/tree
+[2025-11-26 21:10:51] INFO:Menu tree fetched successfully
+[2025-11-26 21:12:22] INFO:GET /api/menus/tree
+[2025-11-26 21:12:24] INFO:Menu tree fetched successfully
+[2025-11-26 21:13:24] INFO:GET /api/menus/tree
+[2025-11-26 21:13:26] INFO:Menu tree fetched successfully
+[2025-11-26 21:16:00] INFO:GET /api/menus/tree
+[2025-11-26 21:16:03] INFO:Menu tree fetched successfully
+[2025-11-26 21:16:47] INFO:GET /api/menus/tree
+[2025-11-26 21:16:50] INFO:Menu tree fetched successfully
+[2025-11-26 21:17:24] INFO:GET /api/menus/tree
+[2025-11-26 21:17:26] INFO:Menu tree fetched successfully
+[2025-11-26 21:19:05] INFO:GET /api/menus
+[2025-11-26 21:19:15] INFO:GET /api/menus/tree
+[2025-11-26 21:19:15] INFO:Menu tree fetched successfully
+[2025-11-26 21:19:51] INFO:GET /api/menus/tree
+[2025-11-26 21:19:53] INFO:Menu tree fetched successfully
+[2025-11-26 21:20:58] INFO:GET /api/menus/tree
+[2025-11-26 21:21:01] INFO:Menu tree fetched successfully
+[2025-11-26 21:23:34] INFO:PUT /api/menus/1
+[2025-11-26 21:29:14] INFO:DELETE /api/menus/1
+[2025-11-26 21:30:42] INFO:DELETE /api/menus/1
+[2025-11-26 21:31:48] INFO:DELETE /api/menus/1
+[2025-11-26 21:32:54] INFO:DELETE /api/menus/1
+[2025-11-26 21:33:23] INFO:DELETE /api/menus/1
+[2025-11-26 21:34:30] INFO:DELETE /api/menus/1
+[2025-11-26 21:34:43] INFO:DELETE /api/menus/1
+[2025-11-26 21:37:27] INFO:DELETE /api/menus/1
+[2025-11-26 21:40:36] INFO:DELETE /api/menus/1
+[2025-11-26 21:41:35] INFO:DELETE /api/menus/1
+[2025-11-26 21:42:55] INFO:POST /api/menus
+[2025-11-26 21:48:03] INFO:POST /api/menus
+[2025-11-26 21:48:29] INFO:POST /api/menus
+[2025-11-26 21:48:38] INFO:GET /api/menus/tree
+[2025-11-26 21:48:38] INFO:Menu tree fetched successfully
+[2025-11-26 21:54:51] INFO:POST /api/menus
+[2025-11-26 21:55:44] INFO:POST /api/menus
+[2025-11-26 21:56:04] INFO:POST /api/menus
+[2025-11-26 21:56:32] INFO:POST /api/menus
+[2025-11-26 21:56:49] INFO:POST /api/menus
+[2025-11-26 21:56:58] INFO:POST /api/menus
+[2025-11-26 21:57:20] INFO:POST /api/menus
+[2025-11-26 21:57:45] INFO:POST /api/menus
+[2025-11-26 21:57:59] INFO:GET /api/menus/tree
+[2025-11-26 21:58:00] INFO:Menu tree fetched successfully
+[2025-11-26 21:58:55] INFO:GET /api/menus
+[2025-11-26 21:59:13] INFO:GET /api/menus/tree
+[2025-11-26 21:59:14] INFO:Menu tree fetched successfully
+[2025-11-26 21:59:44] INFO:GET /api/menus/tree
+[2025-11-26 21:59:46] INFO:Menu tree fetched successfully
+[2025-11-26 22:06:33] INFO:GET /api/menus/tree
+[2025-11-26 22:06:35] INFO:Menu tree fetched successfully
+[2025-11-26 22:08:07] INFO:GET /api/menus/tree
+[2025-11-26 22:08:08] INFO:Menu tree fetched successfully
+[2025-11-26 22:09:34] INFO:GET /api/menus/tree
+[2025-11-26 22:09:37] INFO:Menu tree fetched successfully
+[2025-11-26 22:10:47] INFO:GET /api/menus/tree
+[2025-11-26 22:10:50] INFO:Menu tree fetched successfully
+[2025-11-26 22:17:38] INFO:GET /api/menus/tree
+[2025-11-26 22:17:41] ERROR:Error building menu tree: Cannot read properties of undefined (reading 'push')
+[2025-11-26 22:28:11] INFO:GET /api/menus/tree
+[2025-11-26 22:28:14] INFO:Menu tree fetched successfully
+[2025-11-26 22:30:19] INFO:GET /api/menus/tree
+[2025-11-26 22:30:22] ERROR:Error building menu tree: flatMenus.forEach is not a function
+[2025-11-26 22:31:07] INFO:GET /api/menus/tree
+[2025-11-26 22:31:10] INFO:Menu tree fetched successfully
+[2025-11-27 14:05:56] INFO:GET /api/menus/tree
+[2025-11-27 14:05:59] INFO:Menu tree fetched successfully
+[2025-11-27 15:02:42] INFO:GET /api/menus
+[2025-11-27 15:02:49] INFO:POST /api/auth/login
+[2025-11-27 15:02:53] INFO:GET /api/menus
+[2025-11-27 15:03:04] INFO:GET /api/menus/tree
+[2025-11-27 15:03:04] INFO:Menu tree fetched successfully
+[2025-11-27 16:54:01] INFO:GET /api/menus
+[2025-11-27 19:08:37] INFO:GET /api/menus
+[2025-11-27 19:08:44] INFO:POST /api/auth/login
+[2025-11-27 19:08:51] INFO:GET /api/dbHealth
+[2025-11-27 19:08:56] INFO:GET /api/menus
+[2025-11-27 19:09:41] INFO:POST /api/menus
+[2025-11-27 19:09:47] INFO:GET /api/menus
+[2025-11-27 19:09:53] INFO:GET /api/menus/tree
+[2025-11-27 19:09:53] INFO:Menu tree fetched successfully
+[2025-11-27 19:10:56] INFO:PUT /api/menus/1
+[2025-11-27 19:12:16] INFO:PUT /api/menus/1
+[2025-11-27 19:12:24] INFO:PUT /api/menus/1
+[2025-11-27 19:12:29] INFO:GET /api/menus
+[2025-11-27 19:12:50] INFO:PUT /api/menus/1
+[2025-11-27 19:13:41] INFO:GET /api/menus
+[2025-11-28 17:35:33] INFO:POST /api/auth/login
+[2025-11-28 17:35:42] INFO:PUT /api/menus/1
+[2025-11-28 17:38:48] INFO:PUT /api/menus/1
+[2025-11-28 17:43:56] INFO:GET /api/menus
+[2025-11-28 17:44:23] INFO:GET /api/menus
+[2025-11-28 17:47:08] INFO:PUT /api/menus/1
+[2025-11-28 17:48:56] INFO:POST /api/menus
+[2025-11-28 17:56:35] ERROR:Expected double-quoted property name in JSON at position 32
+[2025-11-28 17:56:57] INFO:PUT /api/menus/1
+[2025-11-28 18:00:55] INFO:PUT /api/menus/1
+[2025-11-28 18:01:14] INFO:PUT /api/menus/1
+[2025-11-28 18:01:51] INFO:PUT /api/menus/1
+[2025-11-28 18:03:39] INFO:PUT /api/menus/1
+[2025-11-29 15:43:38] INFO:POST /api/auth/login
+[2025-11-29 15:43:43] INFO:GET /api/menus
+[2025-11-29 15:43:49] INFO:GET /api/menus/tree
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Creating root menu with name: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:***********************************************************************
+[2025-11-29 15:43:50] INFO:Adding menu: 
+[2025-11-29 15:43:50] INFO:Does menu:
+[2025-11-29 15:43:50] INFO:Parent menu for: 
+[2025-11-29 15:43:50] INFO:Pushing menu: 
+[2025-11-29 15:43:50] INFO:Menu tree fetched successfully
+[2025-11-29 15:44:06] INFO:PUT /api/menus/1
+[2025-11-29 15:49:01] INFO:PUT /api/menus/1
+[2025-11-29 15:51:13] INFO:PUT /api/menus/1
+[2025-11-29 16:00:42] INFO:PUT /api/menus/1
+[2025-11-29 16:02:36] INFO:PUT /api/menus/1
+[2025-11-29 16:07:36] INFO:PUT /api/menus/1
+[2025-11-29 16:09:26] INFO:PUT /api/menus/1
+[2025-11-29 16:19:24] INFO:PUT /api/menus/1
+[2025-11-29 16:23:03] INFO:PUT /api/menus/1
+[2025-11-29 16:23:49] INFO:PUT /api/menus/9
+[2025-11-29 16:24:30] INFO:PUT /api/menus/9
+[2025-11-29 16:25:39] INFO:PUT /api/menus/9
+[2025-11-29 16:26:11] INFO:PUT /api/menus/9
+[2025-11-29 16:27:19] INFO:GET /api/menus
+[2025-11-29 16:27:36] INFO:PUT /api/menus/9
+[2025-11-29 16:28:39] INFO:PUT /api/menus/9
+[2025-11-29 16:32:16] INFO:PUT /api/menus/9
+[2025-11-29 16:33:12] INFO:PUT /api/menus/9
+[2025-11-29 16:34:02] INFO:PUT /api/menus/9
+[2025-11-29 16:34:36] INFO:PUT /api/menus/9
+[2025-11-29 16:35:33] INFO:PUT /api/menus/9
+[2025-11-29 16:36:22] INFO:PUT /api/menus/9
+[2025-11-29 16:37:01] INFO:PUT /api/menus/9
+[2025-11-29 16:38:57] INFO:PUT /api/menus/9
+[2025-11-29 16:40:06] INFO:PUT /api/menus/9
+[2025-11-29 16:40:15] INFO:PUT /api/menus/9
+[2025-11-29 16:40:33] INFO:PUT /api/menus/9
+[2025-11-29 18:12:01] INFO:PUT /api/menus/9
+[2025-11-29 18:47:57] INFO:POST /api/auth/login
+[2025-11-29 18:48:02] INFO:GET /api/menus
+[2025-11-29 18:48:09] INFO:PUT /api/menus/9
+[2025-11-29 18:56:06] INFO:PUT /api/menus/9
+[2025-11-29 18:56:44] INFO:PUT /api/menus/9
+[2025-11-29 22:27:14] INFO:POST /api/auth/login
+[2025-11-29 22:27:24] INFO:GET /api/menus
+[2025-11-29 22:27:31] INFO:PUT /api/menus/9
+[2025-11-29 23:16:59] INFO:PUT /api/menus/9
+[2025-11-30 19:16:26] INFO:POST /api/auth/login
+[2025-11-30 19:16:33] INFO:GET /api/menus
+[2025-11-30 19:16:42] INFO:PUT /api/menus/9
+[2025-11-30 19:17:33] INFO:PUT /api/menus/9
+[2025-11-30 19:18:00] INFO:PUT /api/menus/9
+[2025-11-30 19:18:11] INFO:PUT /api/menus/9
+[2025-11-30 19:18:20] INFO:PUT /api/menus/9
+[2025-11-30 19:30:26] INFO:PUT /api/menus/9
+[2025-11-30 19:31:07] INFO:PUT /api/menus/9
+[2025-11-30 19:31:12] INFO:PUT /api/menus/9
+[2025-11-30 19:34:12] INFO:PATCH /api/menus/9
+[2025-11-30 19:40:09] INFO:PATCH /api/menus/9
+[2025-11-30 19:41:36] INFO:PATCH /api/menus/9
+[2025-11-30 19:41:38] INFO:PATCH /api/menus/9
+[2025-11-30 19:42:33] INFO:PATCH /api/menus/9
+[2025-11-30 19:42:41] INFO:PATCH /api/menus/abc
+[2025-11-30 19:42:52] INFO:PATCH /api/menus/1
+[2025-11-30 19:42:53] INFO:PATCH /api/menus/1
+[2025-11-30 19:42:54] INFO:PATCH /api/menus/1
+[2025-11-30 19:42:54] INFO:PATCH /api/menus/1
+[2025-11-30 19:44:47] INFO:PATCH /api/menus/1
+[2025-11-30 20:00:39] INFO:PATCH /api/menus/1
+[2025-11-30 20:41:50] INFO:PATCH /api/menus/1
+[2025-11-30 20:43:29] INFO:PATCH /api/menus/1
+[2025-11-30 20:43:44] INFO:POST /api/auth/login
+[2025-11-30 20:43:49] INFO:PATCH /api/menus/1
+[2025-11-30 20:43:52] INFO:PATCH /api/menus/1
+[2025-11-30 20:44:38] INFO:PATCH /api/menus/1
+[2025-11-30 20:45:03] INFO:PATCH /api/menus/1
+[2025-11-30 20:46:46] INFO:PATCH /api/menus/1
+[2025-11-30 20:47:01] INFO:PATCH /api/menus/1
+[2025-11-30 20:47:14] INFO:PATCH /api/menus/abc
+[2025-11-30 20:47:43] INFO:PATCH /api/menus/1
+[2025-11-30 20:48:02] INFO:PATCH /api/menus/1
+[2025-11-30 20:48:14] INFO:PATCH /api/menus/1
+[2025-11-30 22:19:31] INFO:GET /api/menus
+[2025-11-30 22:19:36] INFO:POST /api/auth/login
+[2025-11-30 22:19:38] INFO:GET /api/menus
+[2025-11-30 22:20:44] INFO:POST /api/menus
+[2025-11-30 22:25:00] INFO:POST /api/menus
+[2025-11-30 22:25:05] INFO:POST /api/menus
+[2025-11-30 22:25:43] INFO:POST /api/menus
+[2025-11-30 22:26:33] INFO:POST /api/menus
+[2025-11-30 22:27:45] INFO:PATCH /api/menus/10
+[2025-11-30 22:28:18] INFO:PATCH /api/menus/10
+[2025-11-30 22:28:36] INFO:PATCH /api/menus/10
+[2025-11-30 22:29:17] ERROR:Expected ',' or '}' after property value in JSON at position 30
+[2025-11-30 22:29:22] INFO:PATCH /api/menus/10
+[2025-11-30 22:29:48] INFO:PATCH /api/menus/10
+[2025-11-30 22:32:09] INFO:PATCH /api/menus/10
+[2025-11-30 22:33:31] INFO:PATCH /api/menus/10
+[2025-11-30 22:33:51] INFO:PATCH /api/menus/10
+[2025-11-30 22:33:52] INFO:PATCH /api/menus/10
+[2025-11-30 22:33:52] INFO:PATCH /api/menus/10
+[2025-11-30 22:34:52] INFO:PATCH /api/menus/7
+[2025-11-30 22:34:55] INFO:PATCH /api/menus/7
+[2025-11-30 22:34:55] INFO:PATCH /api/menus/7
+[2025-11-30 22:35:48] INFO:PATCH /api/menus/7
+[2025-11-30 22:37:27] INFO:PATCH /api/menus/10
+[2025-11-30 23:02:07] INFO:PATCH /api/menus/10
+[2025-11-30 23:02:39] INFO:POST /api/auth/login
+[2025-11-30 23:02:43] INFO:PATCH /api/menus/10
+[2025-11-30 23:03:25] INFO:PATCH /api/menus/10
+[2025-11-30 23:04:05] INFO:PATCH /api/menus/10
+[2025-11-30 23:04:10] INFO:PATCH /api/menus/10
+[2025-11-30 23:04:26] INFO:PATCH /api/menus/10
+[2025-11-30 23:05:15] INFO:POST /api/auth/login
+[2025-11-30 23:05:24] INFO:PATCH /api/menus/10
+[2025-11-30 23:06:37] INFO:PATCH /api/menus/10
+[2025-11-30 23:13:45] INFO:PATCH /api/menus/10
+[2025-11-30 23:15:11] INFO:PATCH /api/menus/10
+[2025-11-30 23:22:57] INFO:PATCH /api/menus/10
+[2025-11-30 23:23:51] INFO:PATCH /api/menus/10
+[2025-11-30 23:23:54] INFO:PATCH /api/menus/10
+[2025-11-30 23:24:48] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:14] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:14] ERROR:error is not defined
+[2025-11-30 23:25:32] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:32] ERROR:error is not defined
+[2025-11-30 23:25:35] INFO:GET /api/menus
+[2025-11-30 23:25:37] INFO:POST /api/auth/login
+[2025-11-30 23:25:43] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:43] ERROR:error is not defined
+[2025-11-30 23:25:52] INFO:GET /api/menus
+[2025-11-30 23:25:53] INFO:GET /api/menus
+[2025-11-30 23:25:54] INFO:GET /api/menus
+[2025-11-30 23:25:58] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:58] ERROR:error is not defined
+[2025-11-30 23:25:58] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:58] ERROR:error is not defined
+[2025-11-30 23:25:59] INFO:PATCH /api/menus/10
+[2025-11-30 23:25:59] ERROR:error is not defined
+[2025-11-30 23:25:59] INFO:PATCH /api/menus/10
+[2025-11-30 23:26:00] ERROR:error is not defined
+[2025-11-30 23:26:17] INFO:PATCH /api/menus/10
+[2025-11-30 23:27:00] INFO:PATCH /api/menus/10
+[2025-11-30 23:27:09] INFO:PATCH /api/menus/10
+[2025-11-30 23:28:01] INFO:PATCH /api/menus/10
+[2025-11-30 23:28:21] INFO:PATCH /api/menus/10
+[2025-12-04 11:53:34] INFO:POST /api/auth/login
+[2025-12-04 11:53:45] INFO:GET /api/menus
+[2025-12-04 11:54:17] INFO:GET /api/menus/search?q=EQUITIES
+[2025-12-04 11:54:33] INFO:GET /api/menus/search?q=EQUITIES
+[2025-12-04 12:17:39] INFO:GET /api/menus/search?q=EQUITIES
+[2025-12-04 12:17:49] INFO:GET /api/menus?page=2&limit=3
+[2025-12-18 14:12:18] INFO:POST /api/auth/login
+[2025-12-18 14:12:30] INFO:GET /api/menus
+[2025-12-18 14:12:42] INFO:GET /api/menus/search?q=EQUITIES
+[2025-12-18 14:12:57] INFO:GET /api/menus?page=4&limit=8
+[2026-01-07 08:35:43] INFO:GET /
+[2026-01-07 10:50:55] INFO:GET /api/menus?page=1&limit=10
+[2026-01-07 10:50:55] INFO:GET /api/menus/search?q=Test
+[2026-01-07 10:52:20] ERROR:unsupported charset "UTF-8"
+[2026-01-07 10:52:52] INFO:POST /api/auth/login
+[2026-01-07 10:53:22] INFO:GET /api/menus?page=1&limit=10
+[2026-01-07 10:53:22] INFO:GET /api/menus/search?q=Test
+[2026-01-07 11:18:01] INFO:GET /api/menus?page=1&limit=10
+[2026-01-07 11:18:01] INFO:GET /api/menus/search?q=Test
+[2026-01-08 08:11:02] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:11:02] INFO:GET /api/menus/search?q=Test
+[2026-01-08 08:13:09] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:13:10] INFO:GET /api/menus/search?q=Test
+[2026-01-08 08:15:09] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:15:09] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 08:18:00] ERROR:unsupported charset "UTF-8"
+[2026-01-08 08:18:18] INFO:POST /api/auth/login
+[2026-01-08 08:18:26] INFO:GET /api/menus?page=4&limit=8
+[2026-01-08 08:26:36] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:26:36] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 08:27:10] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:27:10] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 08:31:44] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 08:31:44] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 09:31:09] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 09:31:09] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 09:31:09] INFO:POST /api/menus
+[2026-01-08 09:35:07] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 09:35:07] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 09:35:07] INFO:POST /api/menus
+[2026-01-08 09:49:31] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 09:49:31] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 09:49:31] INFO:POST /api/menus
+[2026-01-08 09:51:14] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 09:51:14] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 09:51:14] INFO:POST /api/menus
+[2026-01-08 09:51:14] INFO:PATCH /api/menus/1
+[2026-01-08 10:00:10] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 10:00:10] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 10:00:10] INFO:POST /api/menus
+[2026-01-08 10:00:10] INFO:PATCH /api/menus/1
+[2026-01-08 10:00:10] INFO:PATCH /api/menus/1
+[2026-01-08 10:00:10] ERROR:message updating menu:
+[2026-01-08 10:00:10] INFO:GET /api/menus/tree
+[2026-01-08 10:00:10] INFO:Menu tree fetched successfully
+[2026-01-08 10:21:49] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 10:21:49] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 10:21:49] INFO:POST /api/menus
+[2026-01-08 10:21:49] INFO:PATCH /api/menus/1
+[2026-01-08 10:21:49] INFO:DELETE /api/menus/1
+[2026-01-08 10:21:49] INFO:Menu deleted successfully
+[2026-01-08 10:21:54] INFO:GET /api/menus/tree
+[2026-01-08 10:21:54] INFO:Menu tree fetched successfully
+[2026-01-08 10:26:24] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 10:26:24] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 10:26:24] INFO:POST /api/menus
+[2026-01-08 10:26:24] INFO:PATCH /api/menus/1
+[2026-01-08 10:26:24] INFO:DELETE /api/menus/1
+[2026-01-08 10:26:24] INFO:Menu deleted successfully
+[2026-01-08 10:26:30] INFO:GET /api/menus/tree
+[2026-01-08 10:26:30] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:21:26] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 20:21:26] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 20:21:26] INFO:POST /api/menus
+[2026-01-08 20:21:26] INFO:PATCH /api/menus/1
+[2026-01-08 20:21:26] INFO:DELETE /api/menus/1
+[2026-01-08 20:21:26] INFO:Menu deleted successfully
+[2026-01-08 20:21:31] INFO:GET /api/menus/tree
+[2026-01-08 20:21:31] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:27:58] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 20:27:58] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 20:27:58] INFO:POST /api/menus
+[2026-01-08 20:27:58] INFO:PATCH /api/menus/1
+[2026-01-08 20:27:58] INFO:DELETE /api/menus/1
+[2026-01-08 20:27:58] INFO:Menu deleted successfully
+[2026-01-08 20:28:03] INFO:GET /api/menus/tree
+[2026-01-08 20:28:03] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-08 20:43:17] INFO:GET /api/menus?page=1&limit=10
+[2026-01-08 20:43:17] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-08 20:43:17] INFO:POST /api/menus
+[2026-01-08 20:43:17] INFO:PATCH /api/menus/1
+[2026-01-08 20:43:17] INFO:DELETE /api/menus/1
+[2026-01-08 20:43:17] INFO:Menu deleted successfully
+[2026-01-08 20:43:17] INFO:GET /api/menus/tree
+[2026-01-08 20:43:17] ERROR:message building menu tree: Cannot read properties of undefined (reading 'forEach')
+[2026-01-09 10:04:38] INFO:GET /api/menus?page=1&limit=10
+[2026-01-09 10:04:38] INFO:GET /api/menus/search?q=Testmenu2
+[2026-01-09 10:04:38] INFO:POST /api/menus
+[2026-01-09 10:04:38] INFO:PATCH /api/menus/1
+[2026-01-09 10:04:38] INFO:DELETE /api/menus/1
+[2026-01-09 10:04:38] INFO:Menu deleted successfully
+[2026-01-09 10:04:38] INFO:GET /api/menus/tree
+[2026-01-09 10:04:38] INFO:***********************************************************************
+[2026-01-09 10:04:38] INFO:Adding menu: 
+[2026-01-09 10:04:38] INFO:Does menu:
+[2026-01-09 10:04:38] INFO:Creating root menu with name: 
+[2026-01-09 10:04:38] INFO:***********************************************************************
+[2026-01-09 10:04:38] INFO:Adding menu: 
+[2026-01-09 10:04:38] INFO:Does menu:
+[2026-01-09 10:04:38] INFO:Parent menu for: 
+[2026-01-09 10:04:38] INFO:Pushing menu: 
+[2026-01-09 10:04:38] INFO:Menu tree fetched successfully
