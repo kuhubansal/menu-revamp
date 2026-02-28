@@ -31,9 +31,21 @@ export async function getAllMenus(_req: Request, res: Response) {
 // Create a new menu
 export async function createMenu(req: Request, res: Response) {
   try {
-    const {menuid, menuname, menucode, parentmenuid} = req.body;
-    const query: string = `INSERT INTO bc_menu (menuid, menuname, menucode, parentmenuid) VALUES (${menuid}, '${menuname}',' ${menucode}', ${parentmenuid}) RETURNING *`;
-    const result = await runQuery(query);
+    const {menuname, menucode, parentmenuid,menuownerid} = req.body;
+    const query = `
+      INSERT INTO bc_menu (menuname, menucode, parentmenuid, menuownerid)
+      VALUES ($1, $2, $3, $4)
+      RETURNING *;
+    `;
+    const result = await runQuery(query, [
+      menuname,
+      menucode,
+      parentmenuid,
+      menuownerid,
+    ]);
+    if (!result || !result.rows || result.rows.length === 0) {
+      return res.status(500).json({ message: "Insert query failed — no rows returned" });
+    }
     res.status(200).json({"Menu added succesfully in BC_MENU": result.rows[0]});
   } catch (error) {
     logger.error("message creating menu:", error);
@@ -119,14 +131,28 @@ export async function getPaginatedMenus(req:Request, res:Response){
     const page = Number(req.query.page)||1;
     const limit = Number(req.query.limit)||10;
     const offset = (page -1)*limit;
-    const data = await runQuery(`SELECT * FROM bc_menu ORDER BY menuid ASC LIMIT $1 OFFSET $2`, [limit , offset]);
-    const count = await runQuery(`SELECT COUNT(*) FROM bc_menu`);
+    const q = (req.query.q as string) || "";
+    let dataQuery = `
+      SELECT * FROM bc_menu
+      ${q ? `WHERE menuname ILIKE $3 OR menucode ILIKE $3` : ""}
+      ORDER BY menuid ASC
+      LIMIT $1 OFFSET $2
+    `;
+    let countQuery = `
+      SELECT COUNT(*) FROM bc_menu
+      ${q ? `WHERE menuname ILIKE $1 OR menucode ILIKE $1` : ""}
+    `;
+    const dataParams = q ? [limit, offset, `%${q}%`] : [limit, offset];
+    const countParams = q ? [`%${q}%`] : [];
+    const data = await runQuery(dataQuery, dataParams);
+    const count = await runQuery(countQuery, countParams);
     res.json({
       page,
       limit,
       total : Number(count.rows[0].count),
       menus: data.rows,
     });
+    
   }catch (error:any){
      console.error("Error fetching paginated menus:",error.message);
      res.status(500).json({error: "Failed to fetch paginated menus"})

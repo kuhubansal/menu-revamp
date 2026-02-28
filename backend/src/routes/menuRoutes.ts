@@ -37,7 +37,7 @@ const router = Router();
  *       description: Internal server error.
  */
 // Routes mapping
-router.get("/", authenticateUser,getAllMenus);
+router.get("/", /*authenticateUser,*/getAllMenus);
 /**
  * @swagger
  * /api/menus/search:
@@ -57,7 +57,7 @@ router.get("/", authenticateUser,getAllMenus);
  *       401:
  *         description: Unauthorized access
  */
-router.get("/search", authenticateUser , searchMenus);
+router.get("/search", /*authenticateUser,*/ searchMenus);
 /**
  * @swagger
  * /api/menus/paginated:
@@ -82,7 +82,7 @@ router.get("/search", authenticateUser , searchMenus);
  *       401:
  *         description: Unauthorized access
  */
-router.get("/", authenticateUser,getPaginatedMenus);
+router.get("/paginated", /*authenticateUser,*/getPaginatedMenus);
 /**
  * @swagger
  * /api/menus:
@@ -115,7 +115,7 @@ router.get("/", authenticateUser,getPaginatedMenus);
  *       401:
  *         description: Unauthorized access
  */
-router.post("/", authenticateUser,validate(createMenuSchema, "body"),createMenu);
+router.post("/", /*authenticateUser,*/validate(createMenuSchema, "body"),createMenu);
 /**
  * @swagger
  * /api/menus/{menuId}:
@@ -153,7 +153,7 @@ router.post("/", authenticateUser,validate(createMenuSchema, "body"),createMenu)
  *       401:
  *         description: Unauthorized access
  */
-router.patch("/:menuid", validate(menuIdParamSchema, "params"),validate(updateMenuSchema, "body"),authenticateUser,updateMenu);
+router.patch("/:menuid", validate(menuIdParamSchema, "params"),validate(updateMenuSchema, "body"),/*authenticateUser,*/updateMenu);
 /**
  * @swagger
  * /api/menus/{menuId}:
@@ -174,7 +174,7 @@ router.patch("/:menuid", validate(menuIdParamSchema, "params"),validate(updateMe
  *       401:
  *         description: Unauthorized access
  */
-router.delete("/:menuid",authenticateUser, deletemenuid);
+router.delete("/:menuid",/*authenticateUser,*/ deletemenuid);
 /**
  * @swagger
  * /api/menus/dbHealth:
@@ -188,7 +188,7 @@ router.delete("/:menuid",authenticateUser, deletemenuid);
  *       500:
  *         description: Database connection failed
  */
-router.get("/dbHealth",authenticateUser, getDBHealth);
+router.get("/dbHealth",/*authenticateUser,*/ getDBHealth);
 /**
  * @swagger
  * /api/menus/tree:
@@ -202,6 +202,6 @@ router.get("/dbHealth",authenticateUser, getDBHealth);
  *       401:
  *         description: Unauthorized access
  */
-router.get("/tree", authenticateUser, getMenuTree);
+router.get("/tree", /*authenticateUser,*/ getMenuTree);
 
 export default router;

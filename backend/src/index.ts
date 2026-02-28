@@ -10,14 +10,21 @@ import { errorHandler } from "./middlewares/errorHandler";
 import logger from "./utils/logger";
 import authRoutes from "./routes/authRouter";
 import { setupSwagger } from "./config/swagger";
-  
+import cors from "cors";
+
 const app = express();
 export default app;
 const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(requestLogger);
 app.use(cookieParser());
-
+// ✅ Allow your React app to connect to Express API
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  })
+);
 initDB();
 setupSwagger(app);
 

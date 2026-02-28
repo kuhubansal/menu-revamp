@@ -11,11 +11,11 @@ Content-Type: application/json
 }
 
 ### Search 
-GET http://localhost:3000/api/menus/search?q=EQUITIES
+GET http://localhost:3000/api/menus/search?q=PRIME
 Cookie: authToken=valid-user-token
 
 ### Get Paginated menus 
-GET http://localhost:3000/api/menus?page=4&limit=8
+GET http://localhost:3000/api/menus/paginated?page=1&limit=2
 Cookie: authToken=valid-user-token
 
 ### Health Check
@@ -32,10 +32,10 @@ POST http://localhost:3000/api/menus
 Content-Type: application/json
 
 {
-  "menuid": 10,
-  "menuname": "123",
-  "menucode": "BL_MN_MTN",
-  "parentmenuid": 7
+  "menuid": 11,
+  "menuname": "Prime_settings",
+  "menucode": "BL_PM_STG",
+  "parentmenuid": 8
 }
 
 ### Update menu

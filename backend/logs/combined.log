@@ -440,3 +440,426 @@
 [2026-01-09 10:04:38] INFO:Parent menu for: 
 [2026-01-09 10:04:38] INFO:Pushing menu: 
 [2026-01-09 10:04:38] INFO:Menu tree fetched successfully
+[2026-01-15 11:36:56] INFO:POST /api/auth/login
+[2026-01-15 11:37:04] INFO:GET /api/menus?page=4&limit=8
+[2026-01-15 11:45:37] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 11:45:38] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 11:45:40] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 11:45:44] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 11:45:51] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 11:45:52] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:05:15] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:05:36] ERROR:message fetching menus: Cannot read properties of undefined (reading 'rows')
+[2026-01-15 16:05:38] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:05:51] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:06:25] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:07:06] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:34:58] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:35:48] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:36:35] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 16:59:24] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 17:49:05] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 17:52:26] INFO:GET /api/menus?page=1&limit=10
+[2026-01-15 19:33:38] INFO:GET /api/menus?page=1&limit=10
+[2026-01-16 09:56:18] INFO:GET /api/menus?page=1&limit=10
+[2026-01-16 11:00:03] INFO:GET /api/menus?page=1&limit=10
+[2026-01-17 15:36:06] INFO:GET /api/menus?page=1&limit=10
+[2026-01-17 22:20:18] INFO:GET /api/menus?page=1&limit=10
+[2026-01-21 19:38:13] INFO:GET /api/menus?page=1&limit=10
+[2026-01-21 20:33:59] INFO:GET /api/menus?page=1&limit=10
+[2026-01-21 20:34:12] INFO:GET /api/menus?page=1&limit=10
+[2026-01-21 20:34:27] INFO:GET /api/menus?page=1&limit=10&q=admin
+[2026-01-21 20:34:46] INFO:GET /api/menus?page=2&limit=10&q=ADMIN
+[2026-01-21 20:34:47] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-01-21 20:34:49] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-01-21 20:34:49] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-01-21 20:45:46] INFO:GET /api/menus?page=2&limit=10
+[2026-01-21 21:58:18] INFO:GET /api/menus?page=2&limit=10
+[2026-01-21 21:59:04] ERROR:message fetching menus: Cannot read properties of undefined (reading 'rows')
+[2026-01-23 20:40:50] INFO:GET /api/menus?page=2&limit=10
+[2026-01-23 20:40:51] INFO:GET /api/menus?page=1&limit=10
+[2026-01-23 20:57:00] INFO:GET /api/menus?page=1&limit=10
+[2026-02-16 19:30:46] INFO:GET /api/menus?page=1&limit=10
+[2026-02-16 19:37:22] INFO:GET /api/menus?page=1&limit=10
+[2026-02-16 19:38:22] INFO:GET /api/menus?page=1&limit=10
+[2026-02-18 19:48:55] INFO:GET /api/menus?page=1&limit=10
+[2026-02-21 11:25:12] INFO:GET /api/menus?page=1&limit=10
+[2026-02-21 11:30:48] INFO:GET /api/menus?page=1&limit=10
+[2026-02-21 11:31:02] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:04] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:07] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:08] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:08] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:08] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:09] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:09] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:09] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:09] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-21 11:31:09] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 10:40:10] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 10:40:29] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 10:40:30] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 10:49:56] INFO:GET /api/menus
+[2026-02-22 10:55:38] INFO:POST /api/menus
+[2026-02-22 10:55:47] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 10:55:49] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:03:17] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:06:23] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:09:58] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:10:03] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:10:12] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:14] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:14] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:15] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:15] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:15] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:16] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:16] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:16] INFO:GET /api/menus?page=1&limit=2&q=PRIME
+[2026-02-22 11:10:30] INFO:GET /api/menus/search?q=EQUITIES
+[2026-02-22 11:10:42] INFO:GET /api/menus/search?q=PRIME
+[2026-02-22 11:10:53] INFO:GET /api/menus?page=4&limit=8
+[2026-02-22 11:11:14] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:12:35] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:13:27] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:28:18] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:31:35] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 11:32:26] INFO:GET /api/menus?page=1&limit=2
+[2026-02-22 11:32:41] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:32:54] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:32:57] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:33:03] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:04] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:04] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:04] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:05] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:51] INFO:GET /api/menus?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:54] INFO:GET /api/menus/paginated?page=1&limit=10&q=ADMIN
+[2026-02-22 11:33:59] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:34:21] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:37:10] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:38:18] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:38:49] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:54:16] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:54:24] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:54:58] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:55:05] INFO:GET /api/menus?page=1&limit=10
+[2026-02-22 11:57:13] INFO:GET /api/menus/search?q=PRIME
+[2026-02-22 11:57:20] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 11:57:46] INFO:GET /api/menus?page=33&limit=10
+[2026-02-22 11:58:06] INFO:GET /api/menus/paginated?page=33&limit=10
+[2026-02-22 11:59:00] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:59:49] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 11:59:51] INFO:GET /favicon.ico
+[2026-02-22 12:00:21] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 12:04:18] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 12:04:25] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 12:04:48] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:50] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:51] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:51] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:52] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:52] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:52] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:53] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:53] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:54] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:54] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:55] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:04:55] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:05:09] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:05:11] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 12:08:50] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:44] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:47] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:48] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:48] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:49] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:48:50] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 16:48:53] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 16:49:26] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 16:51:41] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 16:51:42] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-22 16:51:50] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:52:17] INFO:GET /api/menus/paginated?page=1&limit=10&q=prime
+[2026-02-22 16:52:20] INFO:GET /api/menus/paginated?page=1&limit=2&q=prime
+[2026-02-22 16:53:29] INFO:GET /api/menus/paginated?page=1&limit=2&q=prime
+[2026-02-22 16:53:32] INFO:GET /api/menus/paginated?page=1&limit=2&q=prime
+[2026-02-22 16:53:40] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 16:54:17] INFO:GET /api/menus/paginated?page=15&limit=2
+[2026-02-22 17:01:47] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:01:52] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:01:54] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:01:57] INFO:GET /api/menus/paginated?page=2&limit=2
+[2026-02-22 17:02:02] INFO:GET /api/menus/paginated?page=3&limit=2
+[2026-02-22 17:02:04] INFO:GET /api/menus/paginated?page=4&limit=2
+[2026-02-22 17:02:08] INFO:GET /api/menus/paginated?page=5&limit=2
+[2026-02-22 17:02:11] INFO:GET /api/menus/paginated?page=6&limit=2
+[2026-02-22 17:02:14] INFO:GET /api/menus/paginated?page=7&limit=2
+[2026-02-22 17:07:23] INFO:GET /api/menus/paginated?page=7&limit=2
+[2026-02-22 17:26:33] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:26:39] INFO:GET /api/menus/paginated?page=2&limit=2
+[2026-02-22 17:26:40] INFO:GET /api/menus/paginated?page=3&limit=2
+[2026-02-22 17:26:41] INFO:GET /api/menus/paginated?page=4&limit=2
+[2026-02-22 17:26:43] INFO:GET /api/menus/paginated?page=5&limit=2
+[2026-02-22 17:26:44] INFO:GET /api/menus/paginated?page=6&limit=2
+[2026-02-22 17:26:47] INFO:GET /api/menus/paginated?page=7&limit=2
+[2026-02-22 17:26:49] INFO:GET /api/menus/paginated?page=8&limit=2
+[2026-02-22 17:27:13] INFO:GET /api/menus/paginated?page=8&limit=2
+[2026-02-22 17:27:17] INFO:GET /api/menus/paginated?page=8&limit=2
+[2026-02-22 17:28:18] INFO:GET /api/menus/paginated?page=8&limit=2
+[2026-02-22 17:28:26] INFO:GET /api/menus/paginated?page=8&limit=2
+[2026-02-22 17:28:29] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:28:38] INFO:GET /api/menus/paginated?page=1&limit=2
+[2026-02-22 17:28:41] INFO:GET /api/menus/paginated?page=2&limit=2
+[2026-02-22 17:28:42] INFO:GET /api/menus/paginated?page=3&limit=2
+[2026-02-22 17:28:43] INFO:GET /api/menus/paginated?page=4&limit=2
+[2026-02-22 17:28:44] INFO:GET /api/menus/paginated?page=5&limit=2
+[2026-02-22 17:28:46] INFO:GET /api/menus/paginated?page=6&limit=2
+[2026-02-22 17:29:03] INFO:GET /api/menus/paginated?page=6&limit=2
+[2026-02-22 17:30:53] INFO:GET /api/menus/paginated?page=6&limit=2
+[2026-02-22 17:30:57] INFO:GET /api/menus/paginated?page=1&limit=5
+[2026-02-22 17:31:00] INFO:GET /api/menus/paginated?page=2&limit=5
+[2026-02-22 17:31:02] INFO:GET /api/menus/paginated?page=3&limit=5
+[2026-02-22 17:31:06] INFO:GET /api/menus/paginated?page=2&limit=5
+[2026-02-22 17:31:10] INFO:GET /api/menus/paginated?page=1&limit=5
+[2026-02-22 17:31:24] INFO:GET /api/menus/paginated?page=1&limit=5
+[2026-02-22 17:31:26] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:34:40] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:34:40] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:34:51] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-25 18:34:57] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:35:06] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:35:11] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:35:15] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-25 18:35:26] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:35:53] INFO:GET /api/menus/paginated?page=1&limit=6&q=p
+[2026-02-25 18:35:58] INFO:GET /api/menus/paginated?page=1&limit=6&q=pr
+[2026-02-25 18:36:01] INFO:GET /api/menus/paginated?page=1&limit=6&q=pri
+[2026-02-25 18:36:04] INFO:GET /api/menus/paginated?page=1&limit=6&q=prim
+[2026-02-25 18:36:09] INFO:GET /api/menus/paginated?page=1&limit=6&q=prime
+[2026-02-25 18:36:15] INFO:GET /api/menus/paginated?page=1&limit=6&q=prim
+[2026-02-25 18:36:15] INFO:GET /api/menus/paginated?page=1&limit=6&q=pri
+[2026-02-25 18:36:16] INFO:GET /api/menus/paginated?page=1&limit=6&q=pr
+[2026-02-25 18:36:16] INFO:GET /api/menus/paginated?page=1&limit=6&q=p
+[2026-02-25 18:36:16] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:36:24] INFO:GET /api/menus/paginated?page=1&limit=6&q=p
+[2026-02-25 18:36:24] INFO:GET /api/menus/paginated?page=1&limit=6&q=pr
+[2026-02-25 18:36:24] INFO:GET /api/menus/paginated?page=1&limit=6&q=pri
+[2026-02-25 18:36:25] INFO:GET /api/menus/paginated?page=1&limit=6&q=prim
+[2026-02-25 18:36:25] INFO:GET /api/menus/paginated?page=1&limit=6&q=prime
+[2026-02-25 18:36:36] INFO:GET /api/menus/paginated?page=1&limit=6&q=prim
+[2026-02-25 18:36:36] INFO:GET /api/menus/paginated?page=1&limit=6&q=pri
+[2026-02-25 18:36:37] INFO:GET /api/menus/paginated?page=1&limit=6&q=pr
+[2026-02-25 18:36:37] INFO:GET /api/menus/paginated?page=1&limit=6&q=p
+[2026-02-25 18:36:37] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:36:50] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:37:37] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:38:24] INFO:GET /api/menus
+[2026-02-25 18:44:03] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:47:29] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 18:47:31] INFO:GET /api/menus/paginated?page=1&limit=10
+[2026-02-25 18:48:36] INFO:GET /api/menus/tree
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Creating root menu with name: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:***********************************************************************
+[2026-02-25 18:48:38] INFO:Adding menu: 
+[2026-02-25 18:48:38] INFO:Does menu:
+[2026-02-25 18:48:38] INFO:Parent menu for: 
+[2026-02-25 18:48:38] INFO:Pushing menu: 
+[2026-02-25 18:48:38] INFO:Menu tree fetched successfully
+[2026-02-25 18:49:25] INFO:GET /api/menus/tree
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Creating root menu with name: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:***********************************************************************
+[2026-02-25 18:49:27] INFO:Adding menu: 
+[2026-02-25 18:49:27] INFO:Does menu:
+[2026-02-25 18:49:27] INFO:Parent menu for: 
+[2026-02-25 18:49:27] INFO:Pushing menu: 
+[2026-02-25 18:49:27] INFO:Menu tree fetched successfully
+[2026-02-25 18:53:48] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 19:18:54] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 19:19:13] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-25 19:27:39] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-26 20:13:06] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-26 21:18:01] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:40:03] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:40:14] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-28 07:40:19] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:40:25] INFO:GET /api/menus/paginated?page=1&limit=6&q=c
+[2026-02-28 07:40:30] INFO:GET /api/menus/paginated?page=1&limit=6&q=cr
+[2026-02-28 07:40:32] INFO:GET /api/menus/paginated?page=1&limit=6&q=cre
+[2026-02-28 07:40:36] INFO:GET /api/menus/paginated?page=1&limit=6&q=cred
+[2026-02-28 07:40:39] INFO:GET /api/menus/paginated?page=1&limit=6&q=credi
+[2026-02-28 07:40:43] INFO:GET /api/menus/paginated?page=1&limit=6&q=credit
+[2026-02-28 07:40:45] INFO:GET /api/menus/paginated?page=1&limit=6&q=credit
+[2026-02-28 07:40:57] INFO:GET /api/menus/paginated?page=1&limit=6&q=credit
+[2026-02-28 07:43:07] INFO:GET /api/menus/paginated?page=1&limit=6&q=credit
+[2026-02-28 07:43:12] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:43:44] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:44:51] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-28 07:45:49] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-28 07:48:25] INFO:GET /api/menus/paginated?page=2&limit=6
+[2026-02-28 07:48:38] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:48:54] INFO:POST /api/menus
+[2026-02-28 07:48:58] INFO:POST /api/menus
+[2026-02-28 07:48:59] INFO:POST /api/menus
+[2026-02-28 07:48:59] INFO:POST /api/menus
+[2026-02-28 07:49:00] INFO:POST /api/menus
+[2026-02-28 07:49:00] INFO:POST /api/menus
+[2026-02-28 07:49:01] INFO:POST /api/menus
+[2026-02-28 07:49:02] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:03] INFO:POST /api/menus
+[2026-02-28 07:49:04] INFO:POST /api/menus
+[2026-02-28 07:49:04] INFO:POST /api/menus
+[2026-02-28 07:49:04] INFO:POST /api/menus
+[2026-02-28 07:49:04] INFO:POST /api/menus
+[2026-02-28 07:50:54] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:52:04] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:52:17] INFO:POST /api/menus
+[2026-02-28 07:54:08] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:57:46] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:57:50] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:58:09] INFO:POST /api/menus
+[2026-02-28 07:58:59] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 07:59:09] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:18:48] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:18:51] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:19:03] INFO:POST /api/menus
+[2026-02-28 08:19:23] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:20:32] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:20:50] INFO:POST /api/menus
+[2026-02-28 08:20:52] ERROR:message creating menu: Cannot read properties of undefined (reading 'rows')
+[2026-02-28 08:21:31] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:35:58] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:36:03] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:36:13] INFO:POST /api/menus
+[2026-02-28 08:36:13] ERROR:message creating menu: Cannot read properties of undefined (reading 'rows')
+[2026-02-28 08:37:33] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:54:32] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:54:36] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:54:53] INFO:POST /api/menus
+[2026-02-28 08:54:55] ERROR:message creating menu: Cannot read properties of undefined (reading 'rows')
+[2026-02-28 08:55:59] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:56:02] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 08:56:11] INFO:POST /api/menus
+[2026-02-28 08:56:11] ERROR:message creating menu: Cannot read properties of undefined (reading 'rows')
+[2026-02-28 08:56:33] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 09:22:48] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 09:22:51] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 09:23:00] INFO:POST /api/menus
+[2026-02-28 09:23:40] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 09:23:43] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:31:36] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:31:39] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:31:53] INFO:POST /api/menus
+[2026-02-28 17:32:47] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:54:30] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:54:40] INFO:POST /api/menus
+[2026-02-28 17:54:40] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:54:59] INFO:GET /api/menus/paginated?page=1&limit=6
+[2026-02-28 17:56:05] INFO:GET /api/menus/paginated?page=1&limit=6
